@@ -1,0 +1,4 @@
+搜索爬虫的限制文件
+
+User-agent: *
+Disallow: /admin/

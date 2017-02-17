@@ -1,0 +1,13 @@
+# editorconfig.org
+
+root = true #最上层editorconfig文件，不会再找其他editorconfig文件
+
+[*] #所有文件
+charset = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true  #文件末尾保留一空白行
+trim_trailing_whitespace = true #空白行去掉空格字符
+
+[*.md]
+trim_trailing_whitespace = false
